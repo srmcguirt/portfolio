@@ -1,0 +1,46 @@
+{
+    //  Use PNPM
+    "npm.packageManager": "pnpm",
+    "eslint.packageManager": "pnpm",
+    //  Optimization
+    "search.followSymlinks": false,
+    // Editor
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "[vue]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+            "source.fixAll.stylelint": true
+        }
+    },
+    "editor.formatOnSave": false,
+    // File Association
+    "files.associations": {
+        "*.css": "postcss"
+      },
+    // ESLint
+    "eslint.options": {
+        "extensions": [
+            ".vue",
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx",
+            ".md",
+            ".mdx"
+        ]
+    },
+    "eslint.validate": [
+        "vue",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "markdown",
+        "mdx"
+    ],
+    // Prettier
+    "prettier.enable": false
+}

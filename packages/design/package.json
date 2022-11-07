@@ -1,0 +1,15 @@
+{
+  "name": "@srmcguirt/design",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./src --ext js,ts,vue --max-warnings 0"
+  },
+  "devDependencies": {
+    "@srmcguirt/eslint-config": "workspace:*",
+    "@srmcguirt/profiles": "workspace:*",
+    "eslint": "~8.7.0",
+    "typescript": "~4.8.4"
+  },
+  "packageManager": "pnpm@7.14.2"
+}
