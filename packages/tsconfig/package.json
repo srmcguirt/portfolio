@@ -1,0 +1,23 @@
+{
+  "$schema":"https://json.schemastore.org/package",
+  "name": "@srmcguirt/tsconfig",
+  "description": "Extendable typescript configs",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "node-mod.json",
+  "devDependencies": {
+    "@srmcguirt/eslint-config": "workspace:*"
+  },
+  "files": [
+    "agnostic-mod.json",
+    "browser-exec.json",
+    "browser-mod.json",
+    "node-exec.json",
+    "node-mod.json",
+    "webworker-mod.json",
+    "_type/common.json",
+    "_type/executable.json",
+    "_type/module.json"
+  ]
+}

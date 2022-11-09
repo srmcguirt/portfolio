@@ -1,0 +1,6 @@
+{
+  "extends": "./common",
+  "compilerOptions": {
+    "composite": false
+  }
+}

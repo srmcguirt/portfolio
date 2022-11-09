@@ -1,4 +1,12 @@
 {
   "$schema": "http://json.schemastore.org/tsconfig",
-  "extends": "../profiles/commonjs.json"
+  "extends": "@srmcguirt/tsconfig/node-mod",
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES6",
+    "outDir": "lib"
+  },
+  "include": [
+    "./src/*.ts"
+  ]
 }

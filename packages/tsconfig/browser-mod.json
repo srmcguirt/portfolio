@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "./_type/module",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM", "ScriptHost"],
+    "module": "ESNext",
+    "types": []
+  }
+}

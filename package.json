@@ -4,8 +4,7 @@
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*",
-    "profiles"
+    "packages/*"
   ],
   "scripts": {
     "build": "turbo run build",
@@ -16,6 +15,8 @@
   "devDependencies": {
     "@srmcguirt/eslint-config": "workspace:*",
     "prettier": "latest",
+    "tslib": "latest",
+    "tsup": "latest",
     "turbo": "latest"
   },
   "engines": {

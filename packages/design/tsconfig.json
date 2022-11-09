@@ -1,5 +1,4 @@
 {
-  "extends": "../../profiles/tsconfig-base.json",
-  "include": ["./src"],
-  "exclude": ["dist", "build", "node_modules"]
+  "extends": "../tsconfig/esm.json",
+  "exclude": ["dist", "build", "node_modules", ".turbo"]
 }
