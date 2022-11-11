@@ -6,12 +6,12 @@
   "license": "MIT",
   "dependencies": {
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
+    "@srmcguirt/tsconfig": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-functional": "^4.4.1",
     "eslint-plugin-mui-unused-classes": "^1.0.3",
-    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
@@ -19,19 +19,20 @@
     "eslint-plugin-jsonc": "^2.4.0",
     "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^43.0.2",
     "eslint-plugin-vue": "^9.4.0",
     "eslint-plugin-yml": "^1.1.0",
     "jsonc-eslint-parser": "^2.1.0",
     "yaml-eslint-parser": "^1.1.0",
-    "@srmcguirt/tsconfig": "workspace:*",
-    "eslint-config-prettier": "latest",
     "eslint-config-turbo": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
     "eslint": "^8.23.0",
-    "typescript": "~4.8.4"
+    "react": "^18.2.0",
+    "typescript": "^4.8.4"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0",

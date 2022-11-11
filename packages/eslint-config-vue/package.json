@@ -1,0 +1,24 @@
+{
+  "name": "@srmcguirt/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "Vue eslint config",
+  "main": "./dist/index.js",
+  "files": [
+    "./dist/*.js"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["eslint"],
+  "author": "Shane McGuirt <srmcguirt@gmail.com> (https://github.com/srmcguirt)",
+  "license": "MIT",
+  "tsup": {
+    "entry": ["src/index.ts"],
+    "format": ["cjs"],
+    "splitting": false,
+    "sourcemap": false,
+    "clean": true
+  }
+}

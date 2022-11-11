@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.9.0",
+  "packageManager": "pnpm@7.14.2",
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
@@ -17,9 +17,13 @@
     "@pinia/nuxt": "^0.4.3",
     "@unocss/nuxt": "^0.46.2",
     "@vueuse/nuxt": "^9.4.0",
-    "eslint": "^8.26.0",
+    "eslint": "^8.23.0",
     "nuxt": "^3.0.0-rc.12",
     "pinia": "^2.0.23",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "vite": "^3.2.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   }
 }

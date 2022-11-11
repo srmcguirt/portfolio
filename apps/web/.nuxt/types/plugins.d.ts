@@ -12,7 +12,7 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../../../node_modules/.pnpm/nuxt@3.0.0-rc.13_t7kkosihzizynsd35m2tpz76wa/node_modules/nuxt/dist/pages/runtime/router").default> &
   InjectionType<typeof import("../../../../node_modules/.pnpm/@nuxtjs+color-mode@3.1.8_rollup@2.79.1/node_modules/@nuxtjs/color-mode/dist/runtime/plugin.server").default> &
   InjectionType<typeof import("../../../../node_modules/.pnpm/@nuxtjs+color-mode@3.1.8_rollup@2.79.1/node_modules/@nuxtjs/color-mode/dist/runtime/plugin.client").default> &
-  InjectionType<typeof import("../../../../node_modules/.pnpm/@pinia+nuxt@0.4.3_2iqlv32stmwj2777j7krbuahvy/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3").default> &
+  InjectionType<typeof import("../../../../node_modules/.pnpm/@pinia+nuxt@0.4.3_lhbujygtiktv3p6zq3a5jwcv6a/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3").default> &
   InjectionType<typeof import("../unocss").default> &
   InjectionType<typeof import("../../../../node_modules/.pnpm/nuxt@3.0.0-rc.13_t7kkosihzizynsd35m2tpz76wa/node_modules/nuxt/dist/app/plugins/payload.client").default>
 

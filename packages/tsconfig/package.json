@@ -6,9 +6,6 @@
   "private": true,
   "license": "MIT",
   "main": "node-mod.json",
-  "devDependencies": {
-    "@srmcguirt/eslint-config": "workspace:*"
-  },
   "files": [
     "agnostic-mod.json",
     "browser-exec.json",

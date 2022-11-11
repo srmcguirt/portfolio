@@ -1,0 +1,38 @@
+{
+  "name": "@srmcguirt/eslint-config-react",
+  "version": "0.0.0",
+  "description": "React config",
+  "main": "./dist/index.js",
+  "files": [
+    "./dist/*.js"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["eslint"],
+  "author": "Shane McGuirt <srmcguirt@gmail.com> (https://github.com/srmcguirt)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@srmcguirt/eslint-config-typescript": "workspace:*",
+    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "react": "^18.2.0",
+    "tsup":"^6.4.0",
+    "typescript": "^4.8.4"
+  },
+  "tsup": {
+    "entry": ["src/index.ts"],
+    "format": ["cjs"],
+    "splitting": false,
+    "sourcemap": false,
+    "clean": true
+  }
+}

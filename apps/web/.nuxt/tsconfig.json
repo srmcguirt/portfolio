@@ -59,7 +59,7 @@
         "../../node_modules/.pnpm/nuxt@3.0.0-rc.13_t7kkosihzizynsd35m2tpz76wa/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "pinia": [
-        "../../node_modules/.pnpm/pinia@2.0.23_l7r24p6nevbtlimqmqcwa3ouhu/node_modules/pinia/dist/pinia"
+        "../../node_modules/.pnpm/pinia@2.0.23_zwu2zepfy3m6u2gunxlolp35gi/node_modules/pinia/dist/pinia"
       ],
       "#color-mode-options": [
         ".nuxt/color-mode-options"

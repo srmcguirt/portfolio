@@ -225,7 +225,7 @@ declare global {
   const usePageLeave: typeof import('@vueuse/core')['usePageLeave']
   const useParallax: typeof import('@vueuse/core')['useParallax']
   const usePermission: typeof import('@vueuse/core')['usePermission']
-  const usePinia: typeof import('../../../../node_modules/.pnpm/@pinia+nuxt@0.4.3_2iqlv32stmwj2777j7krbuahvy/node_modules/@pinia/nuxt/dist/runtime/composables')['usePinia']
+  const usePinia: typeof import('../../../../node_modules/.pnpm/@pinia+nuxt@0.4.3_lhbujygtiktv3p6zq3a5jwcv6a/node_modules/@pinia/nuxt/dist/runtime/composables')['usePinia']
   const usePointer: typeof import('@vueuse/core')['usePointer']
   const usePointerSwipe: typeof import('@vueuse/core')['usePointerSwipe']
   const usePreferredColorScheme: typeof import('@vueuse/core')['usePreferredColorScheme']
@@ -537,7 +537,7 @@ declare module 'vue' {
     readonly usePageLeave: UnwrapRef<typeof import('@vueuse/core')['usePageLeave']>
     readonly useParallax: UnwrapRef<typeof import('@vueuse/core')['useParallax']>
     readonly usePermission: UnwrapRef<typeof import('@vueuse/core')['usePermission']>
-    readonly usePinia: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@pinia+nuxt@0.4.3_2iqlv32stmwj2777j7krbuahvy/node_modules/@pinia/nuxt/dist/runtime/composables')['usePinia']>
+    readonly usePinia: UnwrapRef<typeof import('../../../../node_modules/.pnpm/@pinia+nuxt@0.4.3_lhbujygtiktv3p6zq3a5jwcv6a/node_modules/@pinia/nuxt/dist/runtime/composables')['usePinia']>
     readonly usePointer: UnwrapRef<typeof import('@vueuse/core')['usePointer']>
     readonly usePointerSwipe: UnwrapRef<typeof import('@vueuse/core')['usePointerSwipe']>
     readonly usePreferredColorScheme: UnwrapRef<typeof import('@vueuse/core')['usePreferredColorScheme']>
